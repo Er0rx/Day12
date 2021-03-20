@@ -4,7 +4,6 @@ function myRecursion(arr, n) {
     } else {
         return myRecursion(arr, n - 1) + arr[n - 1];
     }
-
 }
 
 console.log(myRecursion([1], 0));
